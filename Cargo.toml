@@ -1,0 +1,13 @@
+[package]
+name = "nannoutest"
+version = "0.1.0"
+authors = ["Leon Bentrup <leon@leonadi.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = "0.16"
+nannou_audio = "0.16"
+aubio-rs = "0.2.0"
+ringbuf = "0.2.5"
